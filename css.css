@@ -136,7 +136,7 @@ span.answer {
   letter-spacing: 0.3em;
   font-weight: 700;
   color: #fafafa;
-  font-size: 11px;
+  font-size: 18px;
   text-transform: uppercase;
 
 }
@@ -147,7 +147,7 @@ span.answer {
   letter-spacing: 0.3em;
   font-weight: 700;
   padding-bottom: 50px;
-  font-size: 11px;
+  font-size: 18px;
   text-transform: uppercase;
 }
 
@@ -236,7 +236,6 @@ img.icon {
   margin: 20px;
   background-color: white;
   display: inline-block;
-  /*//height: 500px;*/
 }
 
 .portfolio-thumb img {
