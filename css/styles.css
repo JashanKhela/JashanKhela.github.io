@@ -22,7 +22,7 @@
 
 
 .header_area .main-menu .navbar {
-    padding: 1rem 20rem;
+    padding: 1rem 15rem;
 }
 
 .header_area .main-menu .navbar-nav .active a {
@@ -78,7 +78,7 @@
 
 
 /* End Banner Area */
-#code {
+.code {
     /*  margin-top:150px;*/
     border-radius: 5px;
     width: 650px;
@@ -92,7 +92,7 @@
 }
 
 @media(max-width: 768px) {
-    #code {
+    .code {
         border-radius: 5px;
         width: 350px;
         padding: 1rem;
@@ -105,7 +105,7 @@
     }
 }
 
-#console {
+.console {
 
     padding: 40px;
     height: 620px;
