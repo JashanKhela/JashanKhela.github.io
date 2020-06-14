@@ -78,3 +78,47 @@
 
 
 /* End Banner Area */
+#code {
+    /*  margin-top:150px;*/
+    border-radius: 5px;
+    width: 650px;
+    padding: 1rem;
+    margin: 0 auto;
+    background: #ccc;
+    font-family: 'Monaco', 'Courier New';
+    text-align: left;
+    font-size: 13px;
+    color: #fafafa;
+}
+
+@media(max-width: 768px) {
+    #code {
+        border-radius: 5px;
+        width: 350px;
+        padding: 1rem;
+        margin: 0 auto;
+        background: #ccc;
+        font-family: 'Monaco', 'Courier New';
+        text-align: left;
+        font-size: 11px;
+        color: #fafafa;
+    }
+}
+
+#console {
+
+    padding: 40px;
+    height: 620px;
+    margin: 0 auto;
+    background: #383737;
+}
+
+span.answer {
+    color: var(--primary-color) !important;
+    font-weight: bolder;
+}
+
+span.answer a {
+    color: var(--primary-color) !important;
+
+}
