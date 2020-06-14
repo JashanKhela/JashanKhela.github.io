@@ -117,12 +117,12 @@
     background: #383737;
 }
 
-span.answer {
+span .answer {
     color: var(--primary-color) !important;
     font-weight: bolder;
 }
 
-span.answer a {
+span .answer a {
     color: var(--primary-color) !important;
 
 }
