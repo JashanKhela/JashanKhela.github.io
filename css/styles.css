@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Raleway:wght@400;500&display=swap');
+
+/* css variables */
+@import url(_variables.css);
+@import url(_global.css);
+
+
+
+/* NAVBAR STYLES START */
+.header_area .main-menu .navbar .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--title-color);
+    padding: 1.7rem
+}
+
+.header_area .main-menu .navbar .navbar-brand {
+
+    font-weight: bolder;
+    color: var(--primary-color) !important;
+}
+
+
+.header_area .main-menu .navbar {
+    padding: 1rem 20rem;
+}
+
+.header_area .main-menu .navbar-nav .active a {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* NAVBAR STYLES END */
+
+
+/* Banner Area */
+
+
+
+.site-main .site-banner .site-title h3 {
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after {
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1 {
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4 {
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image>img {
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+
+
+/* End Banner Area */
