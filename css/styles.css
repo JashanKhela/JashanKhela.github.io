@@ -4,7 +4,9 @@
 @import url(_variables.css);
 @import url(_global.css);
 
-
+body {
+    width: 100%;
+}
 
 /* NAVBAR STYLES START */
 .header_area .main-menu .navbar .nav-link {
@@ -17,7 +19,7 @@
 .header_area .main-menu .navbar .navbar-brand {
 
     font-weight: bolder;
-    color: var(--primary-color) !important;
+    color: var(--primary-color);
 }
 
 
@@ -99,6 +101,7 @@
         margin: 0 auto;
         background: #ccc;
         font-family: 'Monaco', 'Courier New';
+
         text-align: left;
         font-size: 11px;
         color: #fafafa;
@@ -157,8 +160,11 @@ span.answer {
 }
 
 .site-main .subscribe-us-area .subscribe .subscribe-title h3 {
-    font: normal 700 30px/ 30px;
-    color: whitesmoke
+    font: normal 700 30px/30px;
+    color: whitesmoke;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
 }
 
 .site-main .subscribe-us-area .subscribe .subscribe-title p {
