@@ -22,9 +22,12 @@ body {
     color: var(--primary-color);
 }
 
+.header_area .main-menu .navbar .navbar-brand img {
+    width: 75%
+}
 
 .header_area .main-menu .navbar {
-    padding: 1rem 15rem;
+    padding: 0 15rem;
 }
 
 .header_area .main-menu .navbar-nav .active a {
@@ -93,24 +96,7 @@ body {
     color: #fafafa;
 }
 
-@media(max-width: 768px) {
-    .code {
-        border-radius: 5px;
-        width: 350px;
-        padding: 1rem;
-        margin: 0 auto;
-        background: #ccc;
-        font-family: 'Monaco', 'Courier New';
 
-        text-align: left;
-        font-size: 11px;
-        color: #fafafa;
-    }
-
-    .header_area .main-menu .navbar {
-        padding: 0 20px 0 26px
-    }
-}
 
 .console {
 
@@ -215,3 +201,31 @@ footer.footer-area .social a:hover>i {
 
 
 /* End Footer */
+
+@media(max-width: 768px) {
+    .code {
+        border-radius: 5px;
+        width: 350px;
+        padding: 1rem;
+        margin: 0 auto;
+        background: #ccc;
+        font-family: 'Monaco', 'Courier New';
+
+        text-align: left;
+        font-size: 11px;
+        color: #fafafa;
+    }
+
+    .header_area .main-menu .navbar {
+        padding: 0 20px 0 26px
+    }
+
+    .site-main .subscribe-us-area .subscribe form .input-textbox input {
+        width: 100px;
+        padding: 1.5rem 1rem;
+        border: 1px solid whitesmoke;
+        background: transparent;
+        color: white;
+        font: normal 500 17px/20px;
+    }
+}
