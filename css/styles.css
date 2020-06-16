@@ -31,7 +31,7 @@ body {
 }
 
 .header_area .main-menu .navbar-nav .active a {
-    background: var(--gradient-color);
+    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -39,7 +39,7 @@ body {
 }
 
 .header_area .main-menu .navbar-nav a:hover {
-    background: var(--gradient-color);
+    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -86,7 +86,7 @@ body {
     position: relative;
     border: 3px solid transparent;
     border-radius: 4px;
-    background: var(--gradient-color);
+    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
     background-clip: padding-box;
     color: whitesmoke;
     transition: background .6s ease;
