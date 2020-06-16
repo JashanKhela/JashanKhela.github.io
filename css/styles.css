@@ -261,4 +261,8 @@ footer.footer-area .social a:hover>i {
         font: normal 500 17px/20px;
         margin: 10px;
     }
+
+    .subscribe form .btn-submit button {
+        margin-top: 30px;
+    }
 }
