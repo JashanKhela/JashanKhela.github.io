@@ -80,6 +80,26 @@ body {
     width: 90rem;
 }
 
+#primary {
+    padding: .8rem 2.2rem;
+    font: normal 500 16px/20px;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+}
+
+#primary:hover {
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+    border: 1px solid var(--primary-color);
+}
+
 
 
 /* End Banner Area */
