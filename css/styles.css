@@ -219,6 +219,10 @@ footer.footer-area .social a:hover>i {
     color: var(--primary-color);
 }
 
+.footer.copyrights{
+    padding:50px;
+}
+
 
 /* End Footer */
 
