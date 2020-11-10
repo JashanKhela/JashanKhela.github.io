@@ -80,11 +80,6 @@ body {
     width: 90rem;
 }
 
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-    max-height: 250px;
-}
 #primary {
     padding: .8rem 2.2rem;
     font: normal 500 16px/20px;
